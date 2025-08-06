@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: llmops-app
-        image: riteshbandaru/zapstudy:v1
+        image: riteshbandaru/zapstudy:v2
         ports:
         - containerPort: 8501
         env:
