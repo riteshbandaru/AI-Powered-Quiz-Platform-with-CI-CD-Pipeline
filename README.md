@@ -69,48 +69,7 @@ The application follows a modern microservices architecture with:
 - **Orchestration**: Minikube/Kubernetes for container management
 - **AI Processing**: Groq LLM + LangChain for intelligent quiz generation
 
-## 📁 Project Structure
 
-```
-AI-Powered-Quiz-Platform-with-CI-CD-Pipeline/
-├── 📁 app/
-│   ├── 📄 app.py                 # Main Streamlit application
-│   ├── 📄 quiz_generator.py      # AI-powered quiz generation logic
-│   ├── 📄 groq_client.py         # Groq LLM integration
-│   ├── 📄 langchain_chains.py    # LangChain prompt chains
-│   └── 📄 utils.py               # Utility functions
-├── 📁 manifests/
-│   ├── 📄 deployment.yaml        # Kubernetes deployment manifest
-│   ├── 📄 service.yaml          # Kubernetes service manifest
-│   ├── 📄 configmap.yaml        # Configuration management
-│   └── 📄 ingress.yaml          # Ingress configuration
-├── 📁 docker/
-│   ├── 📄 Dockerfile            # Production Docker image
-│   └── 📄 docker-compose.yml    # Local development setup
-├── 📁 jenkins/
-│   ├── 📄 Jenkinsfile           # CI/CD pipeline definition
-│   └── 📄 pipeline-config.groovy
-├── 📁 argocd/
-│   ├── 📄 application.yaml      # ArgoCD application manifest
-│   └── 📄 project.yaml          # ArgoCD project configuration
-├── 📁 tests/
-│   ├── 📄 test_quiz_generator.py
-│   ├── 📄 test_groq_client.py
-│   └── 📄 test_app.py
-├── 📁 scripts/
-│   ├── 📄 setup.sh              # Environment setup script
-│   ├── 📄 deploy.sh             # Deployment automation
-│   └── 📄 cleanup.sh            # Resource cleanup
-├── 📁 docs/
-│   ├── 📄 API.md                # API documentation
-│   ├── 📄 DEPLOYMENT.md         # Deployment guide
-│   └── 📄 TROUBLESHOOTING.md    # Common issues & solutions
-├── 📄 requirements.txt          # Python dependencies
-├── 📄 .env.example              # Environment variables template
-├── 📄 .gitignore               # Git ignore rules
-├── 📄 LICENSE                  # MIT License
-└── 📄 README.md                # This file
-```
 
 ## 📋 Prerequisites
 
