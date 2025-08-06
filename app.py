@@ -5,7 +5,7 @@ from src.generator.question_generator import QuestionGenerator
 
 # Set page configuration
 st.set_page_config(
-    page_title="ZapStudy AI Quiz Generator", 
+    page_title="*ZapStudy AI Quiz Generator*", 
     layout="centered",
     page_icon="📘"
 )
