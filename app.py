@@ -29,7 +29,7 @@ def main():
 
     # Sidebar configuration
     with st.sidebar:
-        st.header("⚙️ Configurations")
+        st.header("⚙️ Configurations ⚙️")
         
         # Input fields
         subject = st.text_input("Subject", "Computer Networks", help="Enter the subject name")
