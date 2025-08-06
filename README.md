@@ -69,8 +69,56 @@ The application follows a modern microservices architecture with:
 - **Orchestration**: Minikube/Kubernetes for container management
 - **AI Processing**: Groq LLM + LangChain for intelligent quiz generation
 
-
-
+## 📁 Project Folder Structure
+```
+.
+├── manifests
+│ ├── deployment.yaml
+│ └── service.yaml
+├── results
+│ ├── logs/
+│ └── quiz_results.csv
+├── src
+│ ├── pycache/
+│ ├── common
+│ │ ├── pycache/
+│ │ ├── init.py
+│ │ ├── custom_exception.py
+│ │ └── logger.py
+│ ├── config
+│ │ ├── pycache/
+│ │ ├── init.py
+│ │ └── settings.py
+│ ├── generator
+│ │ ├── pycache/
+│ │ ├── init.py
+│ │ └── question_generator.py
+│ ├── llm
+│ │ ├── pycache/
+│ │ ├── init.py
+│ │ └── groq_client.py
+│ ├── models
+│ │ ├── pycache/
+│ │ ├── init.py
+│ │ └── question_struct.py
+│ ├── prompts
+│ │ ├── pycache/
+│ │ ├── init.py
+│ │ └── template.py
+│ └── utils
+│ ├── pycache/
+│ └── init.py
+├── venv/
+├── .env
+├── .gitignore
+├── app.py
+├── Dockerfile
+├── Jenkinsfile
+├── kubectl
+├── requirements.txt
+├── setup.py
+└── README.md
+```
 ## 📋 Prerequisites
 
 Before starting, ensure you have the following accounts and basic knowledge:
