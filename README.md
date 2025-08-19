@@ -876,4 +876,4 @@ sequenceDiagram
    - Builds Docker image with version tag
    - Pushes image to Docker Hub
    - Updates Kubernetes manifests
-4. **ArgoCD** detects changes in the
+
